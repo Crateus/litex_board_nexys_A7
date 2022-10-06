@@ -5,15 +5,16 @@ from setuptools import find_packages
 
 
 setup(
-    name="litex-boards",
-    description="LiteX supported boards",
-    author="Florent Kermarrec",
-    author_email="florent@enjoy-digital.fr",
-    url="http://enjoy-digital.fr",
+    name="litex-boards-nexys_A7",
+    description="Add Litex support for Digilent Nexys A7",
+    author="Yassine Faize",
+    author_email="yfaize@keysom.io",
+    #url="http://enjoy-digital.fr",
     download_url="https://github.com/Crateus/litex_board_nexys_A7",
     #test_suite="test",
     license="BSD",
     python_requires="~=3.6",
     include_package_data=True,
-    packages=find_packages(exclude=['test*']),
+    packages=find_packages(where="litex-board"),
+    package_dir={"": "litex-boards"},
 )
