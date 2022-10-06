@@ -15,6 +15,6 @@ setup(
     license="BSD",
     python_requires="~=3.6",
     include_package_data=True,
-    packages=find_packages(where="litex-board"),
+    packages=find_packages(where="litex-boards"),
     package_dir={"": "litex-boards"},
 )
