@@ -10,7 +10,7 @@ setup(
     author="Florent Kermarrec",
     author_email="florent@enjoy-digital.fr",
     url="http://enjoy-digital.fr",
-    #download_url="https://github.com/litex-hub/litex-boards",
+    download_url="https://github.com/Crateus/litex_board_nexys_A7",
     #test_suite="test",
     license="BSD",
     python_requires="~=3.6",
